@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+  帳號:     
+  <input type="text" name="acc"  placeholder="請輸入你的帳號" pattern=".{8,}" title="最少要8碼" required>
+  <br><br>
+  密碼:     
+  <input type="password" name="pwd"  placeholder="請輸入你的密碼" pattern=".{6,}" title="最少要6碼" required>
+  <br><br>
+  電子郵件:
+  <input type="email" name="email"  placeholder="請輸入有效電子郵件" required>
+  <br><br>
+  生日:     
+  <input type="date" name="bday"  max="2017-12-31" required>
+  <br><br>
+  性別:
+  <input type="radio" name="gender" value="male" checked> 男
+  <input type="radio" name="gender" value="female"> 女
+  <input type="radio" name="gender" value="other"> 其他 <br><br>  
+  興趣:
+  <input type="checkbox" name="hobby" value="ball"> 打球
+  <input type="checkbox" name="hobby" value="shopping"> 購物
+  <input type="checkbox" name="hobby" value="music"> 音樂 
+  <input type="checkbox" name="hobby" value="other"> 其他<br><br>  
+  
+  <select name="grade">
+　<option value="one">大一</option>
+　<option value="two">大二</option>
+　<option value="three">大三</option>
+　<option value="four">大四</option>
+  <option value="other">其他</option>
+　  
+</select><br><br>
+  <input type="submit" value="提交">
+  <input type="reset">
+</form> 
+
+
+
+</body>
+</html>
